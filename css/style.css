@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Tajawal:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tajawal', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+nav .logo{
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+}
+nav .logo i{
+    color: #6e0aef;
+    padding-left: 0.75rem;
+}
+nav .fa-bars{
+    display: none;
+}
+nav .logo h4{
+    font-family: 'Lalezar', cursive; 
+} 
+nav .nav_items{
+    display: flex;
+    list-style-type: none;
+}
+nav .nav_items .nav_item{
+    padding: 0 1rem;
+    
+}
+nav .nav_items .nav_item a{
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 15px;
+    padding: 0 15px;
+}
+nav .nav_items .nav_item a:hover{
+    color: #6e0aef;
+}
+.hero{
+    background-color: #f8f7fc;
+}
+.hero_section{
+    max-width: 1100px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.hero_section .content{
+    display: flex;
+    flex-direction: column;
+}
+.hero_section h4{
+    color: #6e0aef;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.hero_section .content h1{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.hero_section .content p{
+    color: rgb(29, 29, 29);
+    font-size: 13px;
+}
+.hero_section span{
+    color: #6e0aef;
+}
+.btn{
+width: 110px;
+margin-top: 3rem;
+border-radius: 0.5rem;
+border: none;
+padding: 6px 8px;
+background-color: #6e0aef;
+}
+.btn:hover{
+    background-color: #7d25f0;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+section.features{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
+    height: 350px;
+}
+section.features .features_section{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.features_section h4{
+    color: #6e0aef;
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+.features_section .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+.features_section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2rem;
+    max-width: 250px;
+    border: 1rem;
+    margin: 1rem;
+}
+.features_section .qualities .quality:hover{
+    border: 2px solid #6e0aef;
+}
+.qualities .quality i{
+    font-size: 2rem;
+    color: #6e0aef;
+    margin-bottom: 1rem;
+}
+.qualities .quality h3{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.qualities .quality p{
+    font-size: 15px;
+    color: #4e547e;
+    text-align: center;
+}
+.newest_phones{
+    padding-top: 5rem;
+}
+.newest_phones .phones_section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .phones_section h4 {
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .phones_section .phones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+  }
+  
+  .phones .phone {
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .phones .phone .img {
+    margin-bottom: 1rem;
+  }
+  
+  .phones .phone .img:hover {
+   transform: scale(1.1) ;
+    cursor: pointer;
+  }
+  .phone h3 {
+    font-size: 1.6rem;
+  }
+  
+  .phones_section button {
+    width: 15rem;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+  footer{
+      background-color: #f8f7fc;
+      height: 80px;
+      margin-top: 5rem;
+  }
+  .footer-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto;
+      padding-bottom: 3px;
+      max-width: 1100;
+      
+  }
+  .footer-section p {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    padding-top: 5px;
+  }
+  
+  .footer-section .socials {
+    margin-bottom: 1rem;
+  }
+  .footer-section .socials i {
+    padding: 0 0.5rem;
+    font-size: 20px;
+  }
+  
+  .footer-section .socials i:hover {
+    color: #6e0aef;
+    cursor: pointer;
+  }
+  @media (max-width: 1300px) {
+    * {
+      font-size: 85%;
+    }
+  }
+  
+  @media (max-width: 1175px) {
+    * {
+      font-size: 80%;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    * {
+      text-align: center;
+    }
+    .hero img {
+      display: none;
+    }
+    .hero_section {
+      align-items: center;
+      padding: 2rem 0rem;
+      width: 50%;
+    
+    }
+    .hero .btn {
+      align-self: center;
+    }
+    .hero .hero_section .content {
+      margin-top: 2rem;
+
+    }
+    .features_section .qualities {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    section.features .features_section {
+      align-items: center;
+      height: 200px;
+    }
+    .phones_section h4 {
+      align-self: center;
+    }
+  }
+  
+  @media (max-width: 660px) {
+    .hero_section .content h1 {
+      font-size: 2rem;
+    }
+    .phones_section {
+      align-items: center;
+    }
+    .phones_section .phones {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 535px) {
+      
+    .phones_section .phones {
+      grid-template-columns: 1fr;
+    }
+}
+    @media (max-width: 500px){
+        nav .fa-bars{
+            display: block;
+            font-size: 3rem;
+        }
+     nav {
+      position: sticky;
+      top: 0;
+      width: 100%;
+    }
+    nav .bars_menu {
+      display: block;
+      font-size: 3rem;
+    } 
+    nav .nav_items {
+      position: absolute;
+      left: 0;
+      top: 10vh;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color: #7d22f3;
+      padding: 2rem 0;
+    }
+    nav .nav_items .nav-item {
+      margin: 1rem 0;
+    }
+    nav .nav_items .nav-item a {
+      color: white;
+    }
+    nav .nav_items.active {
+      display: flex;
+    }
+
+  }
